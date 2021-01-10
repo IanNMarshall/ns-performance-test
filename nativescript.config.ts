@@ -6,5 +6,9 @@ export default {
   android: {
     v8Flags: '--expose_gc',
     markingMode: 'none'
+  },
+  ios: {
+    v8Flags: '--expose_gc',
+    markingMode: 'none',
   }
 } as NativeScriptConfig;
